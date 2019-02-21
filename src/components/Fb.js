@@ -34,7 +34,7 @@ class Fb extends Component {
                        <div>facebook data <br/>
                            {this.state.fbmail},{this.state.fbname}
                        </div>
-                       <button onClick={()=>this.props.history.goBack()}>go back to google</button>
+                       <button onClick={()=>this.props.history.goBack()}>go back to google\</button>
             </div>
         );
     }
