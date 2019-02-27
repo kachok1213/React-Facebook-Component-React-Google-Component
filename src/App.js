@@ -7,9 +7,7 @@ import Fb from './components/Fb'
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
+  
   
 
   render() {

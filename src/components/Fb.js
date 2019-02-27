@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FacebookLogin } from 'react-facebook-login-component';
-
+import { Button } from 'react-bootstrap';
 
 class Fb extends Component {
 
@@ -34,7 +34,7 @@ class Fb extends Component {
                        <div>facebook data <br/>
                            {this.state.fbmail},{this.state.fbname}
                        </div>
-                       <button onClick={()=>this.props.history.goBack()}>go back to google\</button>
+                       <Button variant="secondary" onClick={()=>this.props.history.goBack()}>go back to google</Button>
             </div>
         );
     }
